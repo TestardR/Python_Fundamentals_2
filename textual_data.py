@@ -16,5 +16,9 @@ print(new_message)
 greeting = 'Hello'
 name = 'Vanessa'
 
-last_message = f'Hello {name}. Welcome!'
+last_message = f'Hello {name.upper()}. Welcome!'
 print(last_message)
+
+# see all methods available
+print(dir(name))
+print(help(name.upper))
